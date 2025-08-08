@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "prductName": "chicken pizza",
+        "about": "here it is. your circle chicken",
+        "ProductImage": "/images/pizza-images/chicken-pizza.jpg",
+        "price": 75000,
+        "type": "pizza"
+    },
+    {
+        "id": 2,
+        "prductName": "pepperoni pizza",
+        "about": "common and popular",
+        "ProductImage": "/images/pizza-images/pepperoni-pizza.jpg",
+        "price": 75000,
+        "type": "pizza"
+    },
+    {
+        "id": 3,
+        "prductName": "steak pizza",
+        "about": "meat, slice of a meat!",
+        "ProductImage": "/images/pizza-images/steak-pizza.jpg",
+        "price": 75000,
+        "type": "pizza"
+    },
+    {
+        "id": 4,
+        "prductName": "napoli pizza",
+        "about": " not usual but crucial!",
+        "ProductImage": "/images/pizza-images/napoliten-pizza.jpg",
+        "price": 75000,
+        "type": "pizza"
+    },
+    {
+        "id": 5,
+        "prductName": "mixed pizza",
+        "about": "delicious, crispy and royal!",
+        "ProductImage": "/images/pizza-images/mixed-pizza.jpg",
+        "price": 83000,
+        "type": "pizza"
+    },
+    {
+        "id": 6,
+        "prductName": "margarita pizza",
+        "ProductImage": "/images/pizza-images/margaita-pizza.jpg",
+        "about": "as yummy as the name!",
+        "price": 83000,
+        "type": "pizza"
+    }
+]

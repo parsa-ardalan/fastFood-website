@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "productName": "chicken burger",
+        "ProductImage": "/images/burger-images/chicken-burger.png",
+        "price": 2.3,
+        "type": "burger"
+    },
+    {
+        "id": 2,
+        "productName": "royale burger",
+        "ProductImage": "/images/burger-images/royale-burger.png",
+        "price": 5.99,
+        "type": "burger"
+    },
+    {
+        "id": 3,
+        "productName": "double burger",
+        "ProductImage": "/images/burger-images/double-burger.png",
+        "price": 8.4,
+        "type": "burger"
+    },
+    {
+        "id": 4,
+        "productName": "Italian burger",
+        "ProductImage": "/images/burger-images/italian-burger.png",
+        "price": 4.99,
+        "type": "burger"
+    },
+    {
+        "id": 5,
+        "productName": "mash burger",
+        "ProductImage": "/images/burger-images/mashroom-burger.png",
+        "price": 3.5,
+        "type": "burger"
+    },
+    {
+        "id": 6,
+        "productName": "coal burger",
+        "ProductImage": "/images/burger-images/coalburger.png",
+        "price": 6.3,
+        "type": "burger"
+    },
+    {
+        "id": 7,
+        "productName": "turkish burger",
+        "ProductImage": "/images/burger-images/turkey-burger.png",
+        "price": 4.99,
+        "type": "burger"
+    },
+    {
+        "id": 8,
+        "productName": "vegan burger",
+        "ProductImage": "/images/burger-images/vegan-burger.png",
+        "price": 6.5,
+        "type": "burger"
+    }
+]

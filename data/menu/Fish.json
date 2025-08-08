@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "prductName": "fish and chips",
+        "ProductImage": "/images/fish-images/fish-and-chips.jpg",
+        "price": 10.5,
+        "type": "fish"
+    },
+    {
+        "id": 2,
+        "prductName": "fried fish",
+        "ProductImage": "/images/fish-images/fry-fish.jpg",
+        "price": 8.99,
+        "type": "fish"
+    },
+    {
+        "id": 3,
+        "prductName": "steak fish",
+        "ProductImage": "/images/fish-images/steak-mahi.jpg",
+        "price": 6.3,
+        "type": "fish"
+    },
+    {
+        "id": 4,
+        "prductName": "nagget fish",
+        "ProductImage": "/images/fish-images/naget-fish.png",
+        "price": 9.99,
+        "type": "fish"
+    },
+    {
+        "id": 5,
+        "prductName": "stuffed fish",
+        "ProductImage": "/images/fish-images/stuffed fish.jpg",
+        "price": 12.2,
+        "type": "fish"
+    }
+]

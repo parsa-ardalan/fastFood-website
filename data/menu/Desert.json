@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "prductName": "fruit jelly",
+        "ProductImage": "/images/desert-images/jelly.jpg",
+        "price": 3,
+        "type": "desert"
+    },
+    {
+        "id": 2,
+        "prductName": "mouchi",
+        "ProductImage": "/images/desert-images/mouchi.webp",
+        "price": 5,
+        "type": "desert"
+    },
+    {
+        "id": 3,
+        "prductName": "apple pie",
+        "ProductImage": "/images/desert-images/paie-sib.jpg",
+        "price": 7.5,
+        "type": "desert"
+    },
+    {
+        "id": 4,
+        "prductName": "stroopwafel",
+        "ProductImage": "/images/desert-images/vafel-stroup.jpg",
+        "price": 4,
+        "type": "desert"
+    },
+    {
+        "id": 5,
+        "prductName": "Italian wafel",
+        "ProductImage": "/images/desert-images/vafel.jpg",
+        "price": 5,
+        "type": "desert"
+    },
+    {
+        "id": 6,
+        "prductName": "ice cream",
+        "ProductImage": "/images/desert-images/Gelato-Ice-cream.jpg",
+        "price": 9.5,
+        "type": "desert"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "prductName": "kaviar",
+        "ProductImage": "/images/seafood-images/kaviar.jpg",
+        "price": 22.99,
+        "type": "seaFood"
+    },
+    {
+        "id": 2,
+        "prductName": "lobster",
+        "ProductImage": "/images/seafood-images/lobster.jpg",
+        "price": 7.5,
+        "type": "seaFood"
+    },
+    {
+        "id": 3,
+        "prductName": "mussels",
+        "ProductImage": "/images/seafood-images/mussels.jpg",
+        "price": 4.99,
+        "type": "seaFood"
+    },
+    {
+        "id": 4,
+        "prductName": "shrimp",
+        "ProductImage": "/images/seafood-images/shrimp.jpg",
+        "price": 6.5,
+        "type": "seaFood"
+    },
+    {
+        "id": 5,
+        "prductName": "sushi",
+        "ProductImage": "/images/seafood-images/sushi.webp",
+        "price": 11.2,
+        "type": "seaFood"
+    }
+]

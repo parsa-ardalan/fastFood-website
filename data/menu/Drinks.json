@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "prductName": "shampine",
+        "ProductImage": "/images/drink-images/shampine.png",
+        "price": 75000,
+        "type": "drinks"
+    },
+    {
+        "id": 2,
+        "prductName": "whisky",
+        "ProductImage": "/images/drink-images/whisky.png",
+        "price": 75000,
+        "type": "drinks"
+    },
+    {
+        "id": 3,
+        "prductName": "beer",
+        "ProductImage": "/images/drink-images/beer.png",
+        "price": 75000,
+        "type": "drinks"
+    },
+    {
+        "id": 4,
+        "prductName": "zero cola",
+        "ProductImage": "/images/drink-images/pepsi.png",
+        "price": 83000,
+        "type": "drinks"
+    },
+    {
+        "id": 5,
+        "prductName": "pepsi",
+        "ProductImage": "/images/drink-images/zero-cola.png",
+        "price": 83000,
+        "type": "drinks"
+    },
+    {
+        "id": 6,
+        "prductName": "fanta",
+        "ProductImage": "/images/drink-images/fanta.png",
+        "price": 83000,
+        "type": "drinks"
+    }
+]

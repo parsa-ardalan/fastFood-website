@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "prductName": "Greek salad",
+        "ProductImage": "/images/salad-images/greek-salad.jpg",
+        "price": 7.5,
+        "type": "salad"
+    },
+    {
+        "id": 2,
+        "prductName": "Indonasian salad",
+        "ProductImage": "/images/salad-images/Indonasian-salad.jpg.webp",
+        "price": 6.33,
+        "type": "salad"
+    },
+    {
+        "id": 3,
+        "prductName": "olovie salad",
+        "ProductImage": "/images/salad-images/olovieh-salad.jpg",
+        "price": 4.99,
+        "type": "salad"
+    },
+    {
+        "id": 4,
+        "prductName": "fasl salad",
+        "ProductImage": "/images/salad-images/salad-fasl.jpg",
+        "price": 7.5,
+        "type": "salad"
+    },
+    {
+        "id": 5,
+        "prductName": "makaroni salad",
+        "ProductImage": "/images/salad-images/salad-makaroni-min.webp",
+        "price": 8.3,
+        "type": "salad"
+    },
+    {
+        "id": 6,
+        "prductName": "caesar salad",
+        "ProductImage": "/images/salad-images/caesar.jpg",
+        "price": 5.99,
+        "type": "salad"
+    }
+]
