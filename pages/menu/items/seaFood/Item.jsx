@@ -19,7 +19,7 @@ export default function Item(props) {
 
             {/* data division */}
 
-            <div className="col-span-3 md:col-span-5 pl-2 pt-1">
+            <div className="col-span-3 md:col-span-5 pl-2 pt-1 pb-2">
 
                 {/* name */}
                 <h1 className="w-full text-white text-lg mt-2 md:text-center md:text-xl"> {props?.name} </h1>
