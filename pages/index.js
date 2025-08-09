@@ -32,13 +32,13 @@ export default function Home() {
         <div className="flex gap-4 mt-7 md:mt-10">
 
           <Link href="/order"
-            className="w-20 h-7 sm:w-40 sm:h-8 md:w-36 md:h-10 flex items-center justify-center border border-amber-400 rounded-md text-amber-400 text-xs sm:text-sm md:text-xl hover:-mt-2 duration-500">
+            className="w-20 h-8 sm:w-40 sm:h-8 md:w-36 md:h-10 flex items-center justify-center border border-amber-400 rounded-md text-amber-400 text-xs sm:text-sm md:text-xl hover:-mt-2 duration-500">
             order
           </Link>
 
           <Link
             href="/menu/main"
-            className="w-20 h-7 sm:w-40 sm:h-8 md:w-36 md:h-10 flex items-center justify-center border border-amber-400 rounded-md text-amber-400 text-xs sm:text-sm md:text-xl hover:-mt-2 duration-500">
+            className="w-20 h-8 sm:w-40 sm:h-8 md:w-36 md:h-10 flex items-center justify-center border border-amber-400 rounded-md text-amber-400 text-xs sm:text-sm md:text-xl hover:-mt-2 duration-500">
             menu
           </Link>
 

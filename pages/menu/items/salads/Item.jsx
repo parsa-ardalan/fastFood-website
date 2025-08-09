@@ -3,7 +3,7 @@ export default function Item(props) {
     return (
         
         <div
-            className="col-span-3 border border-white rounded-lg bg-cover bg-center bg-black/70 bg-blend-darken md:col-span-2 md:py-6"
+            className="col-span-3 border pb-2 border-white rounded-lg bg-cover bg-center bg-black/70 bg-blend-darken md:col-span-2 md:py-6"
             style={{ backgroundImage: `url(${props.image})` }}>
 
             {/* name */}

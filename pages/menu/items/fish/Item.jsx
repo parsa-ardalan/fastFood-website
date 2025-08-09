@@ -19,12 +19,15 @@ export default function Item(props) {
 
             {/* data division */}
 
-            <div className="col-span-3 md:col-span-5">
+            <div className="col-span-3 md:col-span-5 pl-2 pt-1">
 
+                {/* name */}
                 <h1 className="w-full text-white text-lg mt-2 md:text-center md:text-xl"> {props?.name} </h1>
 
+                {/* price */}
                 <h2 className="w-full text-white text-sm mt-1 md:mt-4 md:text-center md:text-md"> {props?.price} $ </h2>
 
+                {/* add icon */}
                 <div className="w-11/12 h-auto md:mt-3 md:mb-2" dir="rtl">
 
                     <svg xmlns="http://www.w3.org/2000/svg"

@@ -17,15 +17,24 @@ export default function Item(props) {
 
             {/* info */}
 
-            <div className="grid grid-cols-3 w-full mt-1 px-4 md:px-6">
+            <div className="grid grid-cols-3 w-full mt-1 px-4 pb-5 md:px-6">
+
+
+                {/* name */}
 
                 <div className="col-span-3 md:col-span-2">
                     <h1 className="text-center md:text-left text-white text-sm md:text-lg"> {props?.name} </h1>
                 </div>
 
-                <div className="col-span-1 md:col-span-1 mt-2 md:mt-0">
-                    <h1 className="text-left mt-2 md:text-right text-white text-xs mb-3 md:text-lg md:ml-0 md:mt-0"> {props?.price}$ </h1>
+
+                {/* price */}
+
+                <div className="col-span-1 md:col-span-1 mt-3 md:mt-0">
+                    <h1 className="text-left md:text-right text-white text-xs mb-3 md:text-lg md:ml-0 md:mt-0"> {props?.price}$ </h1>
                 </div>
+
+
+                {/* add icon */}
 
                 <div className="col-span-2 flex items-center justify-end md:col-span-3 md:mt-2">
 

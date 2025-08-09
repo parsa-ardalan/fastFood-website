@@ -2,7 +2,7 @@
     {
         "id": 1,
         "prductName": "chicken pizza",
-        "about": "here it is. your circle chicken",
+        "about": "here, your circle chicken",
         "ProductImage": "/images/pizza-images/chicken-pizza.jpg",
         "price": 75000,
         "type": "pizza"
