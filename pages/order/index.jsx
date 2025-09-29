@@ -1,9 +1,23 @@
-export default function Order () {
+import { useSelector } from "react-redux"
+import EachProduct from "./Product"
+
+export default function Order() {
+
+    const cartData = useSelector((state) => state.cart.value)
 
     return (
 
-        <div> 
-            <h1 className="text-white text-2xl text-center mt-12"> your cart is empty! </h1>
+        <div className="w-screen h-screen flex items-center justify-center">
+
+            <div className="border border-white w-5/6 h-4/6 overflow-y-auto py-6 px-3">
+
+                {cartData.map((item) => (
+
+                    <EachProduct key={item.id} product={item} />
+                ))}
+
+            </div>
+
         </div>
     )
 }
