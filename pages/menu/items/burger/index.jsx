@@ -11,7 +11,7 @@ export default function BurgerItems() {
 
                 {BurgerData.map((item) => (
 
-                    <Item key={item?.id} name={item?.productName} image={item?.ProductImage} price={item?.price} category={item?.type} />
+                    <Item key={item?.id} name={item?.productName} image={item?.ProductImage} price={item?.price} category={item?.type} id={item.id} />
                 ))}
 
             </div>

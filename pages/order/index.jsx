@@ -10,7 +10,7 @@ export default function Order() {
 
         <div className="w-screen h-screen flex items-center justify-center">
 
-            <div className="border border-white w-5/6 h-4/6 overflow-y-auto py-6 px-3">
+            <div className="border border-white w-5/6 h-4/6 overflow-y-auto py-6 px-4">
 
                 {cartData.map((item) => (
 
