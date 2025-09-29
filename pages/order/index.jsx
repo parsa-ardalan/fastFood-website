@@ -10,11 +10,11 @@ export default function Order() {
 
         <div className="w-screen h-screen flex items-center justify-center">
 
-            <div className="border border-white w-5/6 h-4/6 overflow-y-auto py-6 px-4">
+            <div className="border border-white w-5/6 h-4/6 overflow-y-auto py-6 px-4 rounded-lg">
 
                 {cartData.map((item) => (
 
-                    <EachProduct key={item.id} product={item} />
+                    <EachProduct key={item.name} product={item} />
                 ))}
 
             </div>

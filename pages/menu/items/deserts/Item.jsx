@@ -1,7 +1,13 @@
+import { useDispatch } from "react-redux"
+import cartSlice from "@/redux/cartSlice";
+
 export default function Item(props) {
 
+    // redux codes
+    const dispatch = useDispatch();
+
     return (
-        
+
         <div
             className="col-span-3 border pb-2 border-white rounded-lg bg-cover bg-center bg-black/70 bg-blend-darken md:col-span-2 md:py-6"
             style={{ backgroundImage: `url(${props.image})` }}>
@@ -37,6 +43,7 @@ export default function Item(props) {
                         strokeWidth={1.5}
                         stroke="currentColor"
                         className="w-5 h-5 md:w-7 md:h-7 text-white hover:text-amber-400 duration-150 cursor-pointer"
+                        onClick={() => { dispatch(cartSlice.actions.add(props)) }}
                     >
                         <path
                             strokeLinecap="round"

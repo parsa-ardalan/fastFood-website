@@ -11,8 +11,11 @@ const cartSlice = createSlice({
         add: (state, action) => {
 
             state.value.push(action.payload)
-            console.log("product added to cart successfully")
+        },
 
+        remove: (state, action) => {
+
+            state.value = state.value.filter(item => item.name !== action.payload)
         }
     }
 

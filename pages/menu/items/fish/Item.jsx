@@ -1,6 +1,10 @@
+import cartSlice from "@/redux/cartSlice";
 import Image from "next/image";
+import { useDispatch } from "react-redux";
 
 export default function Item(props) {
+
+    const dispatch = useDispatch();
 
     return (
 
@@ -33,7 +37,9 @@ export default function Item(props) {
                     <svg xmlns="http://www.w3.org/2000/svg"
                         fill="none" viewBox="0 0 24 24"
                         strokeWidth={1.5} stroke="currentColor"
-                        className="size-6 text-white">
+                        className="size-6 text-white"
+                        onClick={() => { dispatch(cartSlice.actions.add(props)) }}
+                    >
                         <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                     </svg>
 

@@ -1,6 +1,11 @@
+import cartSlice from "@/redux/cartSlice";
 import Image from "next/image";
+import { useDispatch } from "react-redux";
 
 export default function Item(props) {
+
+    // redux codes
+    const dispatch = useDispatch();
 
     return (
 
@@ -8,7 +13,7 @@ export default function Item(props) {
 
             {/* image design */}
 
-            <div className="h-4/6">
+            <div className="h-4/6" onClick={() => {dispatch(cartSlice.actions.add(props))}}>
 
                 <Image src={props?.image} alt={props?.name} className="rounded-md w-[90px] h-[90px]" layout="fill" />
 
